@@ -1,0 +1,50 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;	
+}
+@font-face{
+	font-family: Pangolin;
+	src:url(../font/Pangolin-Regular.ttf);
+}
+body{
+	background:linear-gradient(100deg,
+	#4CA1AF, #C4E0E5) ;
+	font-family: Pangolin;	
+
+}
+main{	
+	width: 75%;
+	padding: 9px;
+	margin: auto;
+	background: linear-gradient(45deg,
+	#E0EAFC, #CFDEF3);
+	display : flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.img2{
+	display: flex;
+	justify-content: center;
+
+}
+
+img:hover{
+	transform: rotate(3deg) scale(1.1)
+}
+.text{
+	margin-left: 300px;
+	font-size: 40px;
+}
+img{
+	transition: all 1s ease;
+	box-shadow: 0 0 10px 1px rgba(0,0,0,0.6);
+	margin: 70px;
+	margin-top: 100px;
+}
+.text2{
+	margin:0px 100px 0px 780px;
+	font-size: 40px;
+
+
+
